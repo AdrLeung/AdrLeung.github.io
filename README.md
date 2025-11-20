@@ -6,4 +6,4 @@ Here are my projects:
 - test2
 
 Check out my resume.
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/adrianlhleung/)
+Feel free to connect with me on <a href="https://www.linkedin.com/in/adrianlhleung/" target="_blank" rel="nooperner noreferrer">LinkedIn</a>
