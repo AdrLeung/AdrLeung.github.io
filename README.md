@@ -3,9 +3,8 @@
 Welcome to my portfolio!
 
 
-Here are my projects:
-- test
-- test2
+Here are some of the projects that I'm proud of:
+- <a href="https://github.com/AdrLeung/Waterlogged" target="_blank" rel="noopener noreferrer">Waterlogged: A Marine Biology Citizen Science Application</a>
 
 Download my <a href="resume.pdf" target="_blank" rel="noopener noreferrer">resume</a>.
 
