@@ -1,6 +1,22 @@
+/* 
+colour palette
+#27374d very dark blue
+#526d82 grey blue
+#9db2bf light grey blue
+#dde6ed very light grey
+*/
+
+
 body {
+    margin-left: 220px;
+    background-color:#27374d;
+    color: #dde6ed;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1.25rem;
+}
+
+a {
+    color: #dde6ed;
 }
 
 p {
@@ -12,13 +28,13 @@ ul {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 #526d82;
     transition: 0.3s;
     max-width: 500px;
 }
   
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 #526d82;
 }
   
 .container {
@@ -44,4 +60,35 @@ ul {
     height: 24px;
     width: 24px;
     object-fit: cover;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #27374d;
+  }
+  
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s ease;
+}
+  
+.nav-links a:hover {
+    color: #9db2bf;
+}
+
+.navbar a.active {
+    color: #4fc3f7;
+    font-weight: 600;
 }
